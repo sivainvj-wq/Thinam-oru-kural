@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_fragment_browse.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_number_badge_bg.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\number_badge_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_list.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_fragment_kural_detail.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_kural_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_item_kural.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\item_kural.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\color_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\color\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.thirukkural.app-merged_res-58:/layout_fragment_preface.xml.flat",
+        "source": "com.thirukkural.app-main-60:/layout/fragment_preface.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_fragment_preface.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_preface.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_splash_circle.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\splash_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\font_noto_sans_tamil.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\font\\noto_sans_tamil.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_ic_today.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\ic_today.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-merged_res-58:\\drawable_badge_background.xml.flat",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\drawable\\badge_background.xml"
+    }
+]

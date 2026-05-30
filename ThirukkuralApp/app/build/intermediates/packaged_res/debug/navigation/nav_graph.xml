@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_preface">
+
+    <!-- Preface: Introduction to Thirukkural -->
+    <fragment
+        android:id="@+id/navigation_preface"
+        android:name="com.thirukkural.app.ui.preface.PrefaceFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_preface">
+        <action
+            android:id="@+id/action_preface_to_today"
+            app:destination="@id/navigation_today"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Today: Today's Kural -->
+    <fragment
+        android:id="@+id/navigation_today"
+        android:name="com.thirukkural.app.ui.home.HomeFragment"
+        android:label="@string/nav_today"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="kuralNumber"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+    <!-- Browse: All 1330 Kurals list -->
+    <fragment
+        android:id="@+id/navigation_browse"
+        android:name="com.thirukkural.app.ui.kural.BrowseFragment"
+        android:label="@string/nav_browse"
+        tools:layout="@layout/fragment_browse">
+        <action
+            android:id="@+id/action_browse_to_detail"
+            app:destination="@id/navigation_kural_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Kural Detail -->
+    <fragment
+        android:id="@+id/navigation_kural_detail"
+        android:name="com.thirukkural.app.ui.kural.KuralDetailFragment"
+        android:label="Kural Detail"
+        tools:layout="@layout/fragment_kural_detail">
+        <argument
+            android:name="kuralNumber"
+            app:argType="integer"
+            android:defaultValue="1" />
+    </fragment>
+
+    <!-- Settings -->
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.thirukkural.app.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_bg">
+
+    <!-- Decorative top arc -->
+    <View
+        android:id="@+id/top_arc"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/splash_circle"
+        android:alpha="0.08"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="-80dp" />
+
+    <!-- Bottom arc -->
+    <View
+        android:id="@+id/bottom_arc"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/splash_circle"
+        android:alpha="0.06"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginStart="-60dp" />
+
+    <!-- Logo container -->
+    <LinearLayout
+        android:id="@+id/logo_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- App icon circle -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:cardCornerRadius="55dp"
+            app:cardElevation="12dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="24dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="குறள்"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:fontFamily="@font/noto_sans_tamil" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- App name Tamil -->
+        <TextView
+            android:id="@+id/tv_app_name_ta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="திருக்குறள்"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:fontFamily="@font/noto_sans_tamil"
+            android:letterSpacing="0.05" />
+
+        <!-- App name English -->
+        <TextView
+            android:id="@+id/tv_app_name_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thirukkural"
+            android:textSize="18sp"
+            android:textColor="#CCffffff"
+            android:layout_marginTop="4dp"
+            android:letterSpacing="0.15" />
+    </LinearLayout>
+
+    <!-- Subtitle -->
+    <TextView
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ஒரு நாள் ஒரு குறள் • One Kural A Day"
+        android:textSize="13sp"
+        android:textColor="#99ffffff"
+        android:fontFamily="@font/noto_sans_tamil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="60dp" />
+
+    <!-- Loading dots -->
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@id/subtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

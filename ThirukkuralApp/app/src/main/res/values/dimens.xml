@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="kural_text_size">20sp</dimen>
+    <dimen name="body_text_size">15sp</dimen>
+    <dimen name="caption_text_size">12sp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+</resources>

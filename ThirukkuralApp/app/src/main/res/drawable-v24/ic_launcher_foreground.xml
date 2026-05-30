@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer circle decoration -->
+    <path
+        android:fillColor="#FAEBD7"
+        android:pathData="M54,20 a34,34 0 1,0 0.001,0 Z"
+        android:strokeColor="#D4A017"
+        android:strokeWidth="2"/>
+    <!-- "குறள்" styled text representation as paths -->
+    <path
+        android:fillColor="#5C0A0A"
+        android:pathData="M38,46 L70,46 L70,50 L38,50 Z"/>
+    <path
+        android:fillColor="#5C0A0A"
+        android:pathData="M38,56 L70,56 L70,60 L38,60 Z"/>
+    <path
+        android:fillColor="#5C0A0A"
+        android:pathData="M38,66 L58,66 L58,70 L38,70 Z"/>
+    <!-- Decorative dot -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M64,64 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8Z"/>
+</vector>

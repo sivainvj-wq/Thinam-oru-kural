@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">திருக்குறள் திருவள்ளுவரால் இயற்றப்பட்ட அறம், பொருள், இன்பம் என்ற மூன்று பிரிவுகளில் 1,330 குறட்பாக்களை கொண்ட உலகப் பொது மறை.\n\nஇந்த செயலி ஒவ்வொரு நாளும் வரிசையாக ஒரு குறளை தமிழ் விளக்கம் மற்றும் ஆங்கில மொழிபெயர்ப்புடன் வழங்குகிறது — 1,330 குறள்களும் முடிந்த பின் மீண்டும் தொடங்கும்.</string>
+    <string name="app_language">பயன்பாட்டு மொழி</string>
+    <string name="app_name">திருக்குறள்</string>
+    <string name="book_aram">அறத்துப்பால்</string>
+    <string name="book_inbam">காமத்துப்பால்</string>
+    <string name="book_porul">பொருட்பால்</string>
+    <string name="chapter_label_en">Chapter</string>
+    <string name="chapter_label_ta">அதிகாரம்</string>
+    <string name="daily_reminder">தினசரி நினைவூட்டல்</string>
+    <string name="daily_reminder_desc">ஒவ்வொரு நாளும் ஒரு குறள் பெறுக</string>
+    <string name="kural_number_format">குறள் #%d</string>
+    <string name="language_changed">மொழி மாற்றப்பட்டது. முழுமையாக பொருந்த பயன்பாட்டை மறுதொடங்குக.</string>
+    <string name="meaning_label_en">Meaning &amp; Explanation</string>
+    <string name="meaning_label_ta">பொருள் விளக்கம்</string>
+    <string name="nav_browse">தேடுக</string>
+    <string name="nav_home">முன்னுரை</string>
+    <string name="nav_settings">அமைப்புகள்</string>
+    <string name="nav_today">இன்று</string>
+    <string name="notification_disabled">தினசரி நினைவூட்டல் நிறுத்தப்பட்டது</string>
+    <string name="notification_enabled">தினசரி நினைவூட்டல் இயக்கப்பட்டது ✓</string>
+    <string name="notification_rescheduled">அறிவிப்பு மறு-திட்டமிடப்பட்டது ✓</string>
+    <string name="notification_time">அறிவிப்பு நேரம்</string>
+    <string name="preface_content">திருக்குறள் தமிழ் மொழியில் மிகவும் முக்கியமான ஒரு படைப்பு. இது அறம், பொருள் மற்றும் இன்பம் குறித்த 1,330 குறட்பாக்களைக் கொண்டது. புகழ்பெற்ற கவிஞர்-தத்துவஞானி திருவள்ளுவரால் எழுதப்பட்ட இந்த குறள்கள், அறநெறி வாழ்விற்கான காலமற்ற வழிகாட்டுதலை வழங்குகின்றன.\n\n"தினம் ஒரு குறள்" இந்த பண்டைய ஞானத்தை உங்கள் அன்றாட வாழ்க்கையில் கொண்டு வருவதை நோக்கமாகக் கொண்டுள்ளது.</string>
+    <string name="preface_footer">திருவள்ளுவர் அருளிய திருக்குறள்</string>
+    <string name="preface_title">திருக்குறள் - உலகப் பொதுமறை</string>
+    <string name="search_hint">குறள் எண், அதிகாரம் அல்லது பொருளால் தேடுக…</string>
+    <string name="settings_about">பற்றி</string>
+    <string name="settings_language">மொழி / Language</string>
+    <string name="settings_notifications">அறிவிப்புகள்</string>
+    <string name="share_kural">இக்குறளை பகிர்</string>
+    <string name="tap_to_change">நேரத்தை மாற்ற தட்டுக</string>
+    <string name="test_notification">சோதனை அறிவிப்பு அனுப்பு (2 நொடி)</string>
+    <string name="test_notification_sent">2 நொடிகளில் சோதனை அறிவிப்பு வரும்…</string>
+    <string name="today_label">இன்றைய குறள்</string>
+    <string name="view_todays_kural">இன்றைய குறளைப் பார்க்க</string>
+</resources>

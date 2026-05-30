@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYD
+            VQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5j
+            aXNjbzETMBEGA1UEChMKR29vZ2xlIEluYzEXMBUGA1UECxMOQW5kcm9pZCBNYXJr
+            ZXQxGjAYBgNVBAMTEUFuZHJvaWQgTWFya2V0IENBMB4XDTEwMDMwMzE3MjMxMFoX
+            DTM3MDcxODE3MjMxMFowgZQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9y
+            bmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRMwEQYDVQQKEwpHb29nbGUgSW5j
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHMxCzAJBgNV
+            BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBW
+            aWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jMREwDwYDVQQLEwhBbmRyb2lkMQ4wDAYD
+            VQQDEwVHb29nbGUwHhcNMDgwOTAzMTc0NzI4WhcNMzYwMTI2MTc0NzI4WjBzMQsw
+        </item>
+    </string-array>
+    <color name="accent">#D4A017</color>
+    <color name="accent_dark">#B8860B</color>
+    <color name="background">#F5F0EB</color>
+    <color name="badge_bg">#8B1A1A</color>
+    <color name="book_aram">#2E7D32</color>
+    <color name="book_inbam">#AD1457</color>
+    <color name="book_porul">#1565C0</color>
+    <color name="divider">#E5E5EA</color>
+    <color name="kural_card_bg">#1A1A2E</color>
+    <color name="kural_text">#FAEBD7</color>
+    <color name="primary">#8B1A1A</color>
+    <color name="primary_dark">#6B1414</color>
+    <color name="primary_light">#C4504A</color>
+    <color name="splash_bg">#5C0A0A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#AAAAAA</color>
+    <color name="text_primary">#1C1C1E</color>
+    <color name="text_secondary">#6B6B6B</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="body_text_size">15sp</dimen>
+    <dimen name="caption_text_size">12sp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="kural_text_size">20sp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <string name="about_text">Thirukkural is a classic Tamil text consisting of 1,330 couplets (kurals) on virtue, wealth and love, authored by the poet-philosopher Thiruvalluvar.\n\nThis app delivers one Kural per day in sequential order, with Tamil explanation and English translation — completing all 1,330 kurals in about 3.6 years before cycling again.</string>
+    <string name="app_language">App Language</string>
+    <string name="app_name">ThinamOruKural</string>
+    <string name="book_aram">Book of Virtue</string>
+    <string name="book_inbam">Book of Love</string>
+    <string name="book_porul">Book of Wealth</string>
+    <string name="chapter_label_en">Chapter</string>
+    <string name="chapter_label_ta">அதிகாரம்</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="daily_reminder_desc">Receive one Kural every day</string>
+    <string name="kural_number_format">Kural #%d</string>
+    <string name="language_changed">Language updated. Restart the app to fully apply.</string>
+    <string name="meaning_label_en">Meaning &amp; Explanation</string>
+    <string name="meaning_label_ta">பொருள் விளக்கம்</string>
+    <string name="nav_browse">Browse</string>
+    <string name="nav_home">Preface</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_today">Today</string>
+    <string name="notification_disabled">Daily reminder disabled</string>
+    <string name="notification_enabled">Daily reminder enabled ✓</string>
+    <string name="notification_rescheduled">Notification rescheduled ✓</string>
+    <string name="notification_time">Notification Time</string>
+    <string name="preface_content">Thirukkural is one of the most important works in the Tamil language. It is a collection of 1,330 couplets (kurals) on virtue (Aram), wealth (Porul), and love (Inbam). Written by the legendary poet-philosopher Thiruvalluvar, these verses provide timeless guidance on ethical living.\n\n"Thinam Oru Kural" aims to bring this ancient wisdom into your daily life, one kural at a time.</string>
+    <string name="preface_footer">Authored by Thiruvalluvar</string>
+    <string name="preface_title">Thirukkural - The Universal Veda</string>
+    <string name="search_hint">Search kurals by number, chapter, or meaning…</string>
+    <string name="settings_about">About</string>
+    <string name="settings_language">Language / மொழி</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="share_kural">Share this Kural</string>
+    <string name="tap_to_change">Tap to change time</string>
+    <string name="test_notification">Send Test Notification (2s delay)</string>
+    <string name="test_notification_sent">Test notification coming in 2 seconds…</string>
+    <string name="today_label">Today\'s Kural</string>
+    <string name="view_todays_kural">View Today\'s Kural</string>
+    <style name="Theme.Thirukkural" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="toolbarStyle">@style/ThirukkuralToolbar</item>
+    </style>
+    <style name="Theme.Thirukkural.Splash" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+    </style>
+    <style name="ThirukkuralToolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">#CCffffff</item>
+    </style>
+</resources>

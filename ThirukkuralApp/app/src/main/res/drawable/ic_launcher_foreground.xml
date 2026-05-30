@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Decorative background circle -->
+    <path
+        android:fillColor="#FAEBD7"
+        android:pathData="M54,54 m-38,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"
+        android:strokeColor="#D4A017"
+        android:strokeWidth="2.5"/>
+
+    <!-- Centered and Scaled "kural" text - Scaled down for better padding -->
+    <group
+        android:translateX="25"
+        android:translateY="46"
+        android:scaleX="0.7"
+        android:scaleY="0.7">
+
+        <!-- k -->
+        <path
+            android:pathData="M4,0 v24 M4,12 l10,-12 M4,12 l10,12"
+            android:strokeColor="#8B1A1A"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- u -->
+        <path
+            android:pathData="M22,8 v10 c0,4 6,4 6,0 v-10"
+            android:strokeColor="#8B1A1A"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- r -->
+        <path
+            android:pathData="M38,8 v16 M38,12 c4,-4 8,-2 8,0"
+            android:strokeColor="#8B1A1A"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- a -->
+        <path
+            android:pathData="M58,16 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0 M66,12 v12"
+            android:strokeColor="#8B1A1A"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- l -->
+        <path
+            android:pathData="M76,0 v24"
+            android:strokeColor="#8B1A1A"
+            android:strokeWidth="4.2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+    </group>
+
+    <!-- Decorative gold accent below the text -->
+    <path
+        android:fillColor="#D4A017"
+        android:pathData="M48,68 h12 v2 h-12 z" />
+
+</vector>

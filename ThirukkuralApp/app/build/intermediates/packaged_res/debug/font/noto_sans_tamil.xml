@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SETUP INSTRUCTIONS FOR TAMIL FONT:
+
+    OPTION A — Downloadable Font (recommended, no file needed):
+    In Android Studio:
+      1. Right-click res/font → New → Font Resource File → name it "noto_sans_tamil"
+      2. In the dialog choose "More Fonts", search "Noto Sans Tamil", select Regular, click OK
+      3. Android Studio auto-generates this file with proper provider certs
+
+    OPTION B — Bundled TTF (offline, larger APK):
+      1. Download "Noto Sans Tamil" from https://fonts.google.com/noto/specimen/Noto+Sans+Tamil
+      2. Rename the file to "noto_sans_tamil.ttf"
+      3. Place it in app/src/main/res/font/
+      4. Replace this XML file content with:
+
+         <font-family xmlns:android="http://schemas.android.com/apk/res/android">
+             <font android:fontStyle="normal" android:fontWeight="400"
+                   android:font="@font/noto_sans_tamil_regular"/>
+         </font-family>
+
+      (and rename the ttf to noto_sans_tamil_regular.ttf)
+
+    This current file uses the downloadable font approach:
+-->
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:fontProviderAuthority="com.google.android.gms.fonts"
+    app:fontProviderPackage="com.google.android.gms"
+    app:fontProviderQuery="Noto Sans Tamil"
+    app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
+</font-family>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.thirukkural.app-mergeDebugResources-57:/layout/fragment_preface.xml",
+        "source": "com.thirukkural.app-main-60:/layout/fragment_preface.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\fragment_preface.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_preface.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\fragment_browse.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_browse.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\fragment_kural_detail.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_kural_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\item_kural.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\item_kural.xml"
+    },
+    {
+        "merged": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-mergeDebugResources-57:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\vatha\\.gradle\\daemon\\8.0\\com.thirukkural.app-main-60:\\layout\\activity_splash.xml"
+    }
+]

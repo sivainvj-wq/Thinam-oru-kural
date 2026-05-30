@@ -1,0 +1,3 @@
+com.thirukkural.app.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

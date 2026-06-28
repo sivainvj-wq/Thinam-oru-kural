@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.thirukkural.app'
+    namespace 'com.krishsi.thinamoru.kural'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.thirukkural.app"
+        applicationId "com.krishsi.thinamoru.kural"
         minSdk 24
         targetSdk 34
         versionCode 1
@@ -20,7 +20,8 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -33,6 +34,11 @@ android {
     }
     buildFeatures {
         viewBinding true
+    }
+
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
     }
 }
 

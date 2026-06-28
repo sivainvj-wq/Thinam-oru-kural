@@ -1,12 +1,18 @@
 package com.thirukkural.app.ui.settings
 
+import android.Manifest
+import android.app.AlertDialog
 import android.app.TimePickerDialog
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.snackbar.Snackbar
@@ -24,6 +30,19 @@ class SettingsFragment : Fragment() {
     private var _binding: FragmentSettingsBinding? = null
     private val binding get() = _binding!!
     private lateinit var prefs: PreferencesManager
+
+    private val requestPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            NotificationScheduler.scheduleDaily(requireContext())
+            showSnackbar(getString(R.string.notification_enabled))
+        } else {
+            binding.switchNotification.isChecked = false
+            prefs.setNotificationEnabled(false)
+            updateNotificationUI()
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
@@ -55,12 +74,11 @@ class SettingsFragment : Fragment() {
         }
 
         binding.switchNotification.setOnCheckedChangeListener { _, isChecked ->
-            prefs.setNotificationEnabled(isChecked)
-            updateNotificationUI()
             if (isChecked) {
-                NotificationScheduler.scheduleDaily(requireContext())
-                showSnackbar(getString(R.string.notification_enabled))
+                checkAndEnableNotifications()
             } else {
+                prefs.setNotificationEnabled(false)
+                updateNotificationUI()
                 NotificationScheduler.cancel(requireContext())
                 showSnackbar(getString(R.string.notification_disabled))
             }
@@ -73,6 +91,42 @@ class SettingsFragment : Fragment() {
         binding.btnTestNotification.setOnClickListener {
             sendTestNotification()
         }
+
+        binding.tvPrivacyPolicy.setOnClickListener {
+            showPrivacyPolicy()
+        }
+    }
+
+    private fun showPrivacyPolicy() {
+        AlertDialog.Builder(requireContext())
+            .setTitle(R.string.privacy_policy)
+            .setMessage(R.string.privacy_policy_content)
+            .setPositiveButton(R.string.close, null)
+            .show()
+    }
+
+    private fun checkAndEnableNotifications() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            when {
+                ContextCompat.checkSelfPermission(
+                    requireContext(), Manifest.permission.POST_NOTIFICATIONS
+                ) == PackageManager.PERMISSION_GRANTED -> {
+                    enableNotifications()
+                }
+                else -> {
+                    requestPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                }
+            }
+        } else {
+            enableNotifications()
+        }
+    }
+
+    private fun enableNotifications() {
+        prefs.setNotificationEnabled(true)
+        updateNotificationUI()
+        NotificationScheduler.scheduleDaily(requireContext())
+        showSnackbar(getString(R.string.notification_enabled))
     }
 
     private fun showTimePicker() {

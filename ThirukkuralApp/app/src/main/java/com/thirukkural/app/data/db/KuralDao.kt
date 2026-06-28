@@ -25,7 +25,7 @@ interface KuralDao {
     @Query("SELECT COUNT(*) FROM kurals")
     suspend fun getCount(): Int
 
-    @Query("SELECT * FROM kurals WHERE chapterNameEn LIKE '%' || :query || '%' OR chapterName LIKE '%' || :query || '%' OR line1 LIKE '%' || :query || '%' OR line2 LIKE '%' || :query || '%' OR translationEn LIKE '%' || :query || '%'")
+    @Query("SELECT * FROM kurals WHERE CAST(number AS TEXT) LIKE :query || '%' OR chapterNameEn LIKE '%' || :query || '%' OR chapterName LIKE '%' || :query || '%' OR line1 LIKE '%' || :query || '%' OR line2 LIKE '%' || :query || '%' OR translationEn LIKE '%' || :query || '%'")
     fun searchKurals(query: String): LiveData<List<Kural>>
 
     @Query("SELECT DISTINCT chapter, chapterName, chapterNameEn, book, bookName, bookNameEn FROM kurals ORDER BY chapter ASC")

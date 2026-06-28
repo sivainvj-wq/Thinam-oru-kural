@@ -36,13 +36,15 @@ object NotificationScheduler {
         }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            alarmManager.setExactAndAllowWhileIdle(
+            // Using setAndAllowWhileIdle for better Play Store policy compliance.
+            // Inexact alarms are preferred for non-critical reminders like daily quotes.
+            alarmManager.setAndAllowWhileIdle(
                 AlarmManager.RTC_WAKEUP,
                 calendar.timeInMillis,
                 pendingIntent
             )
         } else {
-            alarmManager.setExact(
+            alarmManager.set(
                 AlarmManager.RTC_WAKEUP,
                 calendar.timeInMillis,
                 pendingIntent

@@ -1,17 +1,17 @@
-#Sat May 30 19:02:34 EDT 2026
-base.0=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.10=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.11=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.12=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.2=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
-base.4=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
-base.5=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
-base.6=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
-base.7=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.8=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.9=E\:\\Sivakumar\\Andriod_Projects\\ThirukkuralApp\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+#Sun Jun 28 15:26:13 EDT 2026
+base.0=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.10=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
+base.11=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
+base.12=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.2=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.3=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
+base.5=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\14\\classes.dex
+base.6=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
+base.7=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.8=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.9=C\:\\Users\\sivai\\StudioProjects\\Thinam-oru-kural\\ThirukkuralApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.10=8/classes.dex

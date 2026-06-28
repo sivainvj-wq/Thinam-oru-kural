@@ -18,4 +18,19 @@ data class Kural(
     val translationEn: String, // English translation
     val explanationTa: String, // Explanation in Tamil
     val explanationEn: String  // Explanation in English
-)
+) {
+    /**
+     * Returns the Tamil lines formatted as exactly 4 words in the first line
+     * and 3 words in the second line.
+     */
+    fun getFormattedLines(): Pair<String, String> {
+        val allWords = "$line1 $line2".split(Regex("\\s+")).filter { it.isNotBlank() }
+        return if (allWords.size >= 7) {
+            val l1 = allWords.take(4).joinToString(" ")
+            val l2 = allWords.drop(4).joinToString(" ")
+            Pair(l1, l2)
+        } else {
+            Pair(line1, line2)
+        }
+    }
+}

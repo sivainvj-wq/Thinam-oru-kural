@@ -21,11 +21,12 @@ class NotificationReceiver : BroadcastReceiver() {
             val kural = dao.getKuralByNumber(todayKuralNumber)
 
             kural?.let {
+                val (l1, l2) = it.getFormattedLines()
                 NotificationHelper.showKuralNotification(
                     context,
                     it.number,
-                    it.line1,
-                    it.line2
+                    l1,
+                    l2
                 )
                 // Advance to next kural for tomorrow
                 prefs.advanceKural()

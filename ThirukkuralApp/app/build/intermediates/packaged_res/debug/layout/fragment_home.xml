@@ -35,11 +35,11 @@
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="English" />
+                android:text="@string/lang_en" />
             <com.google.android.material.tabs.TabItem
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="தமிழ்" />
+                android:text="@string/lang_ta" />
         </com.google.android.material.tabs.TabLayout>
 
         <!-- Main Kural Card -->
@@ -91,7 +91,7 @@
                     android:id="@+id/tv_kural_line1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textColor="@color/kural_text"
                     android:textStyle="bold"
                     android:fontFamily="@font/noto_sans_tamil"
@@ -102,7 +102,7 @@
                     android:id="@+id/tv_kural_line2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="18sp"
                     android:textColor="@color/kural_text"
                     android:textStyle="bold"
                     android:fontFamily="@font/noto_sans_tamil"
@@ -131,7 +131,7 @@
                     android:id="@+id/tv_chapter_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chapter"
+                    android:text="@string/chapter_label"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textAllCaps="true"
@@ -168,7 +168,7 @@
                     android:id="@+id/tv_translation_label"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Meaning"
+                    android:text="@string/meaning_label"
                     android:textColor="@color/text_secondary"
                     android:textSize="12sp"
                     android:textAllCaps="true"

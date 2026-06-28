@@ -4022,6 +4022,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
@@ -4073,6 +4074,7 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string chapter_label
 string chapter_label_en
 string chapter_label_ta
 string character_counter_content_description
@@ -4093,6 +4095,9 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
 string kural_number_format
+string kural_number_simple
+string lang_en
+string lang_ta
 string language_changed
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
@@ -4132,6 +4137,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string meaning_label
 string meaning_label_en
 string meaning_label_ta
 string mtrl_badge_numberless_content_description

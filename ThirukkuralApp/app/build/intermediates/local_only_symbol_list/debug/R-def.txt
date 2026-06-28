@@ -102,6 +102,7 @@ layout fragment_settings
 layout item_kural
 menu bottom_nav_menu
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 navigation nav_graph
 string about_text
@@ -110,12 +111,17 @@ string app_name
 string book_aram
 string book_inbam
 string book_porul
+string chapter_label
 string chapter_label_en
 string chapter_label_ta
 string daily_reminder
 string daily_reminder_desc
 string kural_number_format
+string kural_number_simple
+string lang_en
+string lang_ta
 string language_changed
+string meaning_label
 string meaning_label_en
 string meaning_label_ta
 string nav_browse

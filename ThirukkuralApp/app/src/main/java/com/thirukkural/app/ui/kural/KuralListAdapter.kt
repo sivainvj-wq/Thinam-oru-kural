@@ -19,9 +19,10 @@ class KuralListAdapter(
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(kural: Kural) {
+            val (l1, l2) = kural.getFormattedLines()
             binding.tvNumber.text = binding.root.context.getString(R.string.kural_number_simple, kural.number)
-            binding.tvLine1.text = kural.line1
-            binding.tvLine2.text = kural.line2
+            binding.tvLine1.text = l1
+            binding.tvLine2.text = l2
             binding.tvChapter.text = if (isTamil) kural.chapterName else kural.chapterNameEn
 
             // Color-code by book

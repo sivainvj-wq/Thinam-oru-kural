@@ -22,20 +22,20 @@
             VQQDEwVHb29nbGUwHhcNMDgwOTAzMTc0NzI4WhcNMzYwMTI2MTc0NzI4WjBzMQsw
         </item>
     </string-array>
-    <color name="accent">#D4A017</color>
-    <color name="accent_dark">#B8860B</color>
-    <color name="background">#F5F0EB</color>
-    <color name="badge_bg">#8B1A1A</color>
+    <color name="accent">#E6A100</color>
+    <color name="accent_dark">#B37D00</color>
+    <color name="background">#FFF9E6</color>
+    <color name="badge_bg">@color/primary</color>
     <color name="book_aram">#2E7D32</color>
     <color name="book_inbam">#AD1457</color>
     <color name="book_porul">#1565C0</color>
     <color name="divider">#E5E5EA</color>
-    <color name="kural_card_bg">#1A1A2E</color>
-    <color name="kural_text">#FAEBD7</color>
-    <color name="primary">#8B1A1A</color>
-    <color name="primary_dark">#6B1414</color>
-    <color name="primary_light">#C4504A</color>
-    <color name="splash_bg">#5C0A0A</color>
+    <color name="kural_card_bg">#4E342E</color>
+    <color name="kural_text">#FFECB3</color>
+    <color name="primary">#A62C2B</color>
+    <color name="primary_dark">#801B1A</color>
+    <color name="primary_light">#D65D5B</color>
+    <color name="splash_bg">#7D1A1A</color>
     <color name="surface">#FFFFFF</color>
     <color name="text_hint">#AAAAAA</color>
     <color name="text_primary">#1C1C1E</color>
@@ -54,12 +54,17 @@
     <string name="book_aram">Book of Virtue</string>
     <string name="book_inbam">Book of Love</string>
     <string name="book_porul">Book of Wealth</string>
+    <string name="chapter_label">Chapter</string>
     <string name="chapter_label_en">Chapter</string>
     <string name="chapter_label_ta">அதிகாரம்</string>
     <string name="daily_reminder">Daily Reminder</string>
     <string name="daily_reminder_desc">Receive one Kural every day</string>
     <string name="kural_number_format">Kural #%d</string>
+    <string name="kural_number_simple">#%d</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ta">தமிழ்</string>
     <string name="language_changed">Language updated. Restart the app to fully apply.</string>
+    <string name="meaning_label">Meaning</string>
     <string name="meaning_label_en">Meaning &amp; Explanation</string>
     <string name="meaning_label_ta">பொருள் விளக்கம்</string>
     <string name="nav_browse">Browse</string>

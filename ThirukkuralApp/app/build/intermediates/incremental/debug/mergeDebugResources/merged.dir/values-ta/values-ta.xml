@@ -49,6 +49,7 @@
     <string msgid="6107532579223922871" name="call_notification_incoming_text">"உள்வரும் அழைப்பு"</string>
     <string msgid="8623827134497363134" name="call_notification_ongoing_text">"செயலில் இருக்கும் அழைப்பு"</string>
     <string msgid="59049573811482460" name="call_notification_screening_text">"உள்வரும் அழைப்பை மதிப்பாய்வு செய்கிறது"</string>
+    <string name="chapter_label">அதிகாரம்</string>
     <string name="chapter_label_en">Chapter</string>
     <string name="chapter_label_ta">அதிகாரம்</string>
     <string name="character_counter_content_description">%2$d இல் %1$d எழுத்துகள் உள்ளிடப்பட்டுள்ளன</string>
@@ -63,6 +64,9 @@
     <string name="icon_content_description">உரையாடல் ஐகான்</string>
     <string name="item_view_role_description">தாவல்</string>
     <string name="kural_number_format">குறள் #%d</string>
+    <string name="kural_number_simple">#%d</string>
+    <string name="lang_en">English</string>
+    <string name="lang_ta">தமிழ்</string>
     <string name="language_changed">மொழி மாற்றப்பட்டது. முழுமையாக பொருந்த பயன்பாட்டை மறுதொடங்குக.</string>
     <string name="material_clock_toggle_content_description">AM அல்லது PMமைத் தேர்ந்தெடுக்க உதவும்</string>
     <string name="material_hour_24h_suffix">%1$s மணிநேரம்</string>
@@ -77,6 +81,7 @@
     <string name="material_timepicker_pm">PM</string>
     <string name="material_timepicker_select_time">நேரத்தைத் தேர்ந்தெடுக்கவும்</string>
     <string name="material_timepicker_text_input_mode_description">உரை உள்ளீட்டிற்காக, கடிகாரப் பயன்முறைக்கு மாற்றும்.</string>
+    <string name="meaning_label">பொருள் விளக்கம்</string>
     <string name="meaning_label_en">Meaning &amp; Explanation</string>
     <string name="meaning_label_ta">பொருள் விளக்கம்</string>
     <string name="mtrl_badge_numberless_content_description">புதிய அறிவிப்பு</string>

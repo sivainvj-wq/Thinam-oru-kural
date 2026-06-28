@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary brand color — deep crimson inspired by classic palm-leaf manuscripts -->
-    <color name="primary">#8B1A1A</color>
-    <color name="primary_dark">#6B1414</color>
-    <color name="primary_light">#C4504A</color>
+    <color name="primary">#A62C2B</color>
+    <color name="primary_dark">#801B1A</color>
+    <color name="primary_light">#D65D5B</color>
 
     <!-- Accent — gold, evoking ancient Tamil script on gold plates -->
-    <color name="accent">#D4A017</color>
-    <color name="accent_dark">#B8860B</color>
+    <color name="accent">#E6A100</color>
+    <color name="accent_dark">#B37D00</color>
 
     <!-- Backgrounds -->
-    <color name="background">#F5F0EB</color>
+    <color name="background">#FFF9E6</color>
     <color name="surface">#FFFFFF</color>
-    <color name="splash_bg">#5C0A0A</color>
+    <color name="splash_bg">#7D1A1A</color>
 
     <!-- Kural display card -->
-    <color name="kural_card_bg">#1A1A2E</color>
-    <color name="kural_text">#FAEBD7</color>
+    <color name="kural_card_bg">#4E342E</color>
+    <color name="kural_text">#FFECB3</color>
 
     <!-- Text -->
     <color name="text_primary">#1C1C1E</color>
@@ -26,7 +26,7 @@
     <!-- Misc -->
     <color name="divider">#E5E5EA</color>
     <color name="white">#FFFFFF</color>
-    <color name="badge_bg">#8B1A1A</color>
+    <color name="badge_bg">@color/primary</color>
 
     <!-- Book colors -->
     <color name="book_aram">#2E7D32</color>

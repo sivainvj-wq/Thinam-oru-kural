@@ -72,10 +72,11 @@ class HomeFragment : Fragment() {
 
     private fun displayKural(kural: Kural) {
         val isTamil = binding.tabLanguage.selectedTabPosition == 1
+        val (l1, l2) = kural.getFormattedLines()
 
         binding.tvKuralNumber.text = getString(R.string.kural_number_format, kural.number)
-        binding.tvKuralLine1.text = kural.line1
-        binding.tvKuralLine2.text = kural.line2
+        binding.tvKuralLine1.text = l1
+        binding.tvKuralLine2.text = l2
 
         if (isTamil) {
             binding.tvBookName.text = kural.bookName
@@ -94,10 +95,11 @@ class HomeFragment : Fragment() {
 
     private fun shareKural(kural: Kural) {
         val isTamil = binding.tabLanguage.selectedTabPosition == 1
+        val (l1, l2) = kural.getFormattedLines()
         val text = buildString {
             appendLine("திருக்குறள் #${kural.number}")
-            appendLine(kural.line1)
-            appendLine(kural.line2)
+            appendLine(l1)
+            appendLine(l2)
             appendLine()
             if (isTamil) {
                 appendLine("பொருள்: ${kural.explanationTa}")

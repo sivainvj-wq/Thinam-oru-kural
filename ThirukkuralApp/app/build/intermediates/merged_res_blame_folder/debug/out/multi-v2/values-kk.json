@@ -4,7 +4,7 @@
             "outputFile": "com.thirukkural.app-mergeDebugResources-56:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\9280386eeb9849e58ccfe273753cebc6\\transformed\\appcompat-1.6.1\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\0cc1a6ef6951650af15527ddae3bef81\\transformed\\appcompat-1.6.1\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\a02af45ee381eb3587200483e4a20c77\\transformed\\core-1.12.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\1abe65442584b5bc24005f951d5c63a3\\transformed\\core-1.12.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\c19fa707c1d42503d35ef23bec51c8c0\\transformed\\navigation-ui-2.7.6\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\dce0e072ad9e266fa8024c09355fa660\\transformed\\preference-1.2.1\\res\\values-kk\\values-kk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,175,261,340,483,652,736",
+                        "endColumns": "69,85,78,142,168,83,79",
+                        "endOffsets": "170,256,335,478,647,731,811"
+                    },
+                    "to": {
+                        "startLines": "48,50,111,113,116,117,118",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "4429,4563,9479,9642,9968,10137,10221",
+                        "endColumns": "69,85,78,142,168,83,79",
+                        "endOffsets": "4494,4644,9553,9780,10132,10216,10296"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\67725a09da6ef53d85a18894f8c7fcb7\\transformed\\navigation-ui-2.7.6\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -55,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\76947f2dda4873f4ff357d73f51effc0\\transformed\\material-1.11.0\\res\\values-kk\\values-kk.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\10789a169365eefcc47fc43c42f4150b\\transformed\\material-1.11.0\\res\\values-kk\\values-kk.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,23 +88,6 @@
                         "endLines": "5,33,34,35,36,37,45,46,47,49,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,112",
                         "endColumns": "12,77,75,78,93,87,91,111,81,63,94,69,62,106,64,66,60,66,61,53,113,58,60,53,74,125,87,89,141,71,72,136,88,80,56,55,65,70,76,85,79,71,75,80,69,99,86,71,90,92,73,74,91,51,81,65,83,85,61,63,62,68,103,103,93,99,60,59,83",
                         "endOffsets": "318,3087,3163,3242,3336,3424,4230,4342,4424,4558,4739,4809,4872,4979,5044,5111,5172,5239,5301,5355,5469,5528,5589,5643,5718,5844,5932,6022,6164,6236,6309,6446,6535,6616,6673,6729,6795,6866,6943,7029,7109,7181,7257,7338,7408,7508,7595,7667,7758,7851,7925,8000,8092,8144,8226,8292,8376,8462,8524,8588,8651,8720,8824,8928,9022,9122,9183,9243,9637"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\71281ca1c2fafedd1b8e1beb57f74386\\transformed\\preference-1.2.1\\res\\values-kk\\values-kk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "105,175,261,340,483,652,736",
-                        "endColumns": "69,85,78,142,168,83,79",
-                        "endOffsets": "170,256,335,478,647,731,811"
-                    },
-                    "to": {
-                        "startLines": "48,50,111,113,116,117,118",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "4429,4563,9479,9642,9968,10137,10221",
-                        "endColumns": "69,85,78,142,168,83,79",
-                        "endOffsets": "4494,4644,9553,9780,10132,10216,10296"
                     }
                 }
             ]

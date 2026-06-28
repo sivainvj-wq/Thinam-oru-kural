@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.krishsi.thinamoru.kural'
+    namespace 'com.thirukkural.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.krishsi.thinamoru.kural"
+        applicationId "com.thirukkural.app"
         minSdk 24
         targetSdk 34
         versionCode 1

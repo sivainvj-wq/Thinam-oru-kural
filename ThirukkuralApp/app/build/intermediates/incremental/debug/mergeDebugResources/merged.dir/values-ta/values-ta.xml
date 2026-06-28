@@ -55,6 +55,7 @@
     <string name="character_counter_content_description">%2$d இல் %1$d எழுத்துகள் உள்ளிடப்பட்டுள்ளன</string>
     <string name="character_counter_overflowed_content_description">%2$d இல் %1$d எழுத்து வரம்பு மீறப்பட்டது</string>
     <string name="clear_text_end_icon_content_description">உரையை அழிக்கும்</string>
+    <string name="close">மூடுக</string>
     <string msgid="6083905920877235314" name="copy">"நகலெடு"</string>
     <string name="daily_reminder">தினசரி நினைவூட்டல்</string>
     <string name="daily_reminder_desc">ஒவ்வொரு நாளும் ஒரு குறள் பெறுக</string>
@@ -142,6 +143,8 @@
     <string name="preface_footer">திருவள்ளுவர் அருளிய திருக்குறள்</string>
     <string name="preface_title">திருக்குறள் - உலகப் பொதுமறை</string>
     <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது."</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை (Privacy Policy)</string>
+    <string name="privacy_policy_content">இந்தச் செயலி எந்தவொரு தனிப்பட்ட தகவலையும் சேகரிக்கவோ, சேமிக்கவோ அல்லது பகிரவோ செய்யாது. இது முற்றிலும் ஆஃப்லைனில் இயங்குகிறது மற்றும் அதன் முக்கிய செயல்பாட்டிற்கு இணைய அணுகல் தேவையில்லை. உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம் மற்றும் எந்த மூன்றாம் தரப்பு பகுப்பாய்வு அல்லது கண்காணிப்பு கருவிகளையும் பயன்படுத்த மாட்டோம்.</string>
     <string name="search_hint">குறள் எண், அதிகாரம் அல்லது பொருளால் தேடுக…</string>
     <string msgid="6264217191555673260" name="search_menu_title">"தேடல்"</string>
     <string name="settings_about">பற்றி</string>

@@ -558,8 +558,8 @@ public final class KuralDao_Impl implements KuralDao {
 
   @Override
   public LiveData<List<Kural>> searchKurals(final String query) {
-    final String _sql = "SELECT * FROM kurals WHERE chapterNameEn LIKE '%' || ? || '%' OR chapterName LIKE '%' || ? || '%' OR line1 LIKE '%' || ? || '%' OR line2 LIKE '%' || ? || '%' OR translationEn LIKE '%' || ? || '%'";
-    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 5);
+    final String _sql = "SELECT * FROM kurals WHERE CAST(number AS TEXT) LIKE ? || '%' OR chapterNameEn LIKE '%' || ? || '%' OR chapterName LIKE '%' || ? || '%' OR line1 LIKE '%' || ? || '%' OR line2 LIKE '%' || ? || '%' OR translationEn LIKE '%' || ? || '%'";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 6);
     int _argIndex = 1;
     if (query == null) {
       _statement.bindNull(_argIndex);
@@ -585,6 +585,12 @@ public final class KuralDao_Impl implements KuralDao {
       _statement.bindString(_argIndex, query);
     }
     _argIndex = 5;
+    if (query == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, query);
+    }
+    _argIndex = 6;
     if (query == null) {
       _statement.bindNull(_argIndex);
     } else {

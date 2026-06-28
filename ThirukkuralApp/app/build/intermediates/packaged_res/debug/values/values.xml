@@ -57,6 +57,7 @@
     <string name="chapter_label">Chapter</string>
     <string name="chapter_label_en">Chapter</string>
     <string name="chapter_label_ta">அதிகாரம்</string>
+    <string name="close">Close</string>
     <string name="daily_reminder">Daily Reminder</string>
     <string name="daily_reminder_desc">Receive one Kural every day</string>
     <string name="kural_number_format">Kural #%d</string>
@@ -78,6 +79,8 @@
     <string name="preface_content">Thirukkural is one of the most important works in the Tamil language. It is a collection of 1,330 couplets (kurals) on virtue (Aram), wealth (Porul), and love (Inbam). Written by the legendary poet-philosopher Thiruvalluvar, these verses provide timeless guidance on ethical living.\n\n"Thinam Oru Kural" aims to bring this ancient wisdom into your daily life, one kural at a time.</string>
     <string name="preface_footer">Authored by Thiruvalluvar</string>
     <string name="preface_title">Thirukkural - The Universal Veda</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">This app does not collect, store, or share any personal information. It operates entirely offline and requires no internet access for its core functionality. We value your privacy and do not use any third-party analytics or tracking tools.</string>
     <string name="search_hint">Search kurals by number, chapter, or meaning…</string>
     <string name="settings_about">About</string>
     <string name="settings_language">Language / மொழி</string>

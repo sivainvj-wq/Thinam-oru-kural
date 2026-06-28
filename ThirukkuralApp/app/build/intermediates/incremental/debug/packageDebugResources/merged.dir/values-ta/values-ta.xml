@@ -9,6 +9,7 @@
     <string name="chapter_label">அதிகாரம்</string>
     <string name="chapter_label_en">Chapter</string>
     <string name="chapter_label_ta">அதிகாரம்</string>
+    <string name="close">மூடுக</string>
     <string name="daily_reminder">தினசரி நினைவூட்டல்</string>
     <string name="daily_reminder_desc">ஒவ்வொரு நாளும் ஒரு குறள் பெறுக</string>
     <string name="kural_number_format">குறள் #%d</string>
@@ -30,6 +31,8 @@
     <string name="preface_content">திருக்குறள் தமிழ் மொழியில் மிகவும் முக்கியமான ஒரு படைப்பு. இது அறம், பொருள் மற்றும் இன்பம் குறித்த 1,330 குறட்பாக்களைக் கொண்டது. புகழ்பெற்ற கவிஞர்-தத்துவஞானி திருவள்ளுவரால் எழுதப்பட்ட இந்த குறள்கள், அறநெறி வாழ்விற்கான காலமற்ற வழிகாட்டுதலை வழங்குகின்றன.\n\n"தினம் ஒரு குறள்" இந்த பண்டைய ஞானத்தை உங்கள் அன்றாட வாழ்க்கையில் கொண்டு வருவதை நோக்கமாகக் கொண்டுள்ளது.</string>
     <string name="preface_footer">திருவள்ளுவர் அருளிய திருக்குறள்</string>
     <string name="preface_title">திருக்குறள் - உலகப் பொதுமறை</string>
+    <string name="privacy_policy">தனியுரிமைக் கொள்கை (Privacy Policy)</string>
+    <string name="privacy_policy_content">இந்தச் செயலி எந்தவொரு தனிப்பட்ட தகவலையும் சேகரிக்கவோ, சேமிக்கவோ அல்லது பகிரவோ செய்யாது. இது முற்றிலும் ஆஃப்லைனில் இயங்குகிறது மற்றும் அதன் முக்கிய செயல்பாட்டிற்கு இணைய அணுகல் தேவையில்லை. உங்கள் தனியுரிமையை நாங்கள் மதிக்கிறோம் மற்றும் எந்த மூன்றாம் தரப்பு பகுப்பாய்வு அல்லது கண்காணிப்பு கருவிகளையும் பயன்படுத்த மாட்டோம்.</string>
     <string name="search_hint">குறள் எண், அதிகாரம் அல்லது பொருளால் தேடுக…</string>
     <string name="settings_about">பற்றி</string>
     <string name="settings_language">மொழி / Language</string>

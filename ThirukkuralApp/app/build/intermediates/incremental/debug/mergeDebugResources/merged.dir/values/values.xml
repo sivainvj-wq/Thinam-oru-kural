@@ -2074,6 +2074,7 @@
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
     <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="close">Close</string>
     <string name="copy">Copy</string>
     <string name="daily_reminder">Daily Reminder</string>
     <string name="daily_reminder_desc">Receive one Kural every day</string>
@@ -2225,6 +2226,8 @@
     <string name="preference_copied">
         \"<ns2:g example="Version 1.1" id="summary">%1$s</ns2:g>\" copied to clipboard.
     </string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_content">This app does not collect, store, or share any personal information. It operates entirely offline and requires no internet access for its core functionality. We value your privacy and do not use any third-party analytics or tracking tools.</string>
     <string name="search_hint">Search kurals by number, chapter, or meaning…</string>
     <string name="search_menu_title">Search</string>
     <string name="searchbar_scrolling_view_behavior" translatable="false">

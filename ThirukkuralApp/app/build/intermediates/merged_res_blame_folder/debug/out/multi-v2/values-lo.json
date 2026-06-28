@@ -4,7 +4,7 @@
             "outputFile": "com.thirukkural.app-mergeDebugResources-56:/values-lo/values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\9280386eeb9849e58ccfe273753cebc6\\transformed\\appcompat-1.6.1\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\0cc1a6ef6951650af15527ddae3bef81\\transformed\\appcompat-1.6.1\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\76947f2dda4873f4ff357d73f51effc0\\transformed\\material-1.11.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\10789a169365eefcc47fc43c42f4150b\\transformed\\material-1.11.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\71281ca1c2fafedd1b8e1beb57f74386\\transformed\\preference-1.2.1\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\dce0e072ad9e266fa8024c09355fa660\\transformed\\preference-1.2.1\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -57,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\c19fa707c1d42503d35ef23bec51c8c0\\transformed\\navigation-ui-2.7.6\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\67725a09da6ef53d85a18894f8c7fcb7\\transformed\\navigation-ui-2.7.6\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -74,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\a02af45ee381eb3587200483e4a20c77\\transformed\\core-1.12.0\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\sivai\\.gradle\\caches\\transforms-3\\1abe65442584b5bc24005f951d5c63a3\\transformed\\core-1.12.0\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

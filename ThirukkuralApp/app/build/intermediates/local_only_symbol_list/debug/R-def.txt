@@ -90,6 +90,7 @@ id tv_line1
 id tv_line2
 id tv_notification_time
 id tv_number
+id tv_privacy_policy
 id tv_translation
 id tv_translation_label
 layout activity_main
@@ -114,6 +115,7 @@ string book_porul
 string chapter_label
 string chapter_label_en
 string chapter_label_ta
+string close
 string daily_reminder
 string daily_reminder_desc
 string kural_number_format
@@ -135,6 +137,8 @@ string notification_time
 string preface_content
 string preface_footer
 string preface_title
+string privacy_policy
+string privacy_policy_content
 string search_hint
 string settings_about
 string settings_language

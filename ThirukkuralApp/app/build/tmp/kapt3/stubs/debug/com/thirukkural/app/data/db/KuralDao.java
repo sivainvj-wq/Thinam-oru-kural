@@ -32,7 +32,7 @@ public abstract interface KuralDao {
     public abstract java.lang.Object getCount(@org.jetbrains.annotations.NotNull
     kotlin.coroutines.Continuation<? super java.lang.Integer> $completion);
     
-    @androidx.room.Query(value = "SELECT * FROM kurals WHERE chapterNameEn LIKE \'%\' || :query || \'%\' OR chapterName LIKE \'%\' || :query || \'%\' OR line1 LIKE \'%\' || :query || \'%\' OR line2 LIKE \'%\' || :query || \'%\' OR translationEn LIKE \'%\' || :query || \'%\'")
+    @androidx.room.Query(value = "SELECT * FROM kurals WHERE CAST(number AS TEXT) LIKE :query || \'%\' OR chapterNameEn LIKE \'%\' || :query || \'%\' OR chapterName LIKE \'%\' || :query || \'%\' OR line1 LIKE \'%\' || :query || \'%\' OR line2 LIKE \'%\' || :query || \'%\' OR translationEn LIKE \'%\' || :query || \'%\'")
     @org.jetbrains.annotations.NotNull
     public abstract androidx.lifecycle.LiveData<java.util.List<com.thirukkural.app.model.Kural>> searchKurals(@org.jetbrains.annotations.NotNull
     java.lang.String query);

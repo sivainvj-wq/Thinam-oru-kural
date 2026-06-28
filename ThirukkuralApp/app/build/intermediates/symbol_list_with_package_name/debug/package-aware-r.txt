@@ -3773,6 +3773,7 @@ id tv_line1
 id tv_line2
 id tv_notification_time
 id tv_number
+id tv_privacy_policy
 id tv_translation
 id tv_translation_label
 id unchecked
@@ -4081,6 +4082,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string close
 string copy
 string daily_reminder
 string daily_reminder_desc
@@ -4222,6 +4224,8 @@ string preface_content
 string preface_footer
 string preface_title
 string preference_copied
+string privacy_policy
+string privacy_policy_content
 string search_hint
 string search_menu_title
 string searchbar_scrolling_view_behavior

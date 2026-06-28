@@ -40,10 +40,14 @@ public final class FragmentSettingsBinding implements ViewBinding {
   @NonNull
   public final TextView tvNotificationTime;
 
+  @NonNull
+  public final TextView tvPrivacyPolicy;
+
   private FragmentSettingsBinding(@NonNull ScrollView rootView,
       @NonNull MaterialButton btnTestNotification, @NonNull LinearLayout layoutNotificationTime,
       @NonNull SwitchCompat switchLanguage, @NonNull SwitchCompat switchNotification,
-      @NonNull TextView tvLanguageValue, @NonNull TextView tvNotificationTime) {
+      @NonNull TextView tvLanguageValue, @NonNull TextView tvNotificationTime,
+      @NonNull TextView tvPrivacyPolicy) {
     this.rootView = rootView;
     this.btnTestNotification = btnTestNotification;
     this.layoutNotificationTime = layoutNotificationTime;
@@ -51,6 +55,7 @@ public final class FragmentSettingsBinding implements ViewBinding {
     this.switchNotification = switchNotification;
     this.tvLanguageValue = tvLanguageValue;
     this.tvNotificationTime = tvNotificationTime;
+    this.tvPrivacyPolicy = tvPrivacyPolicy;
   }
 
   @Override
@@ -116,9 +121,15 @@ public final class FragmentSettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tv_privacy_policy;
+      TextView tvPrivacyPolicy = ViewBindings.findChildViewById(rootView, id);
+      if (tvPrivacyPolicy == null) {
+        break missingId;
+      }
+
       return new FragmentSettingsBinding((ScrollView) rootView, btnTestNotification,
           layoutNotificationTime, switchLanguage, switchNotification, tvLanguageValue,
-          tvNotificationTime);
+          tvNotificationTime, tvPrivacyPolicy);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

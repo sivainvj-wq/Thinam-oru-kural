@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.thirukkural.app",
+  "applicationId": "com.krishsi.thinamoru.kural",
   "variantName": "debug",
   "elements": [
     {

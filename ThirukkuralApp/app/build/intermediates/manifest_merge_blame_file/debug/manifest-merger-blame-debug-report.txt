@@ -6,7 +6,7 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-9        android:targetSdkVersion="34" />
+9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 11-->C:\Users\sivai\StudioProjects\Thinam-oru-kural\ThirukkuralApp\app\src\main\AndroidManifest.xml:4:5-77
